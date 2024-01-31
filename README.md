@@ -27,6 +27,37 @@ The dataset comprises the following attributes:
 - Author ID
 - Created At
 
+## Usage
+
+Follow these steps to utilize the code for sentiment analysis:
+
+1. **Download the Dataset:**
+   - Download the dataset from the provided link: [Podcast Reviews Dataset](https://www.kaggle.com/datasets/thoughtvector/podcastreviews)
+
+2. **Prepare the Data:**
+   - Extract the `reviews.json` file from the downloaded dataset.
+
+3. **Convert JSON to CSV:**
+   - Execute the provided script `JsonToCsvConverter.py` in your Python environment to convert the dataset to a CSV file:
+
+     ```bash
+     python JsonToCsvConverter.py
+     ```
+
+   - The resulting CSV file (`reviews_podcast.csv`) will be generated in the 'resources' directory.
+
+4. **Data Preprocessing:**
+   - Execute the Jupyter notebook `DataPreprocessing.ipynb` to preprocess the dataset.
+
+5. **Training Set Building:**
+   - Execute the Jupyter notebook `TrainingsetBuilding.ipynb` to build the training set.
+
+6. **Classifier Construction:**
+   - Execute the Jupyter notebook `Classifiers.ipynb` to construct classifiers for sentiment analysis.
+
+7. **Streaming Analysis:**
+   - Execute the Jupyter notebook `StreamingAnalysis.ipynb` to perform streaming analysis on sentiments.
+
 ## Additional Information
 
 For further information, consult the [documentation](docs/README.md).
