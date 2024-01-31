@@ -38,12 +38,7 @@ Follow these steps to utilize the code for sentiment analysis:
    - Extract the `reviews.json` file from the downloaded dataset.
 
 3. **Convert JSON to CSV:**
-   - Execute the provided script `JsonToCsvConverter.py` in your Python environment to convert the dataset to a CSV file:
-
-     ```bash
-     python JsonToCsvConverter.py
-     ```
-
+   - Execute the provided script `JsonToCsvConverter.py` in your Python environment to convert the dataset to a CSV file.
    - The resulting CSV file (`reviews_podcast.csv`) will be generated in the 'resources' directory.
 
 4. **Data Preprocessing:**
