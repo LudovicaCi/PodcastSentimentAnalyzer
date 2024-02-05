@@ -1,5 +1,5 @@
 # Data Mining and Machine Learning Project
-# Podcast Sentiment Analysis
+# Podcast Reviews Analysis
 
 ## Overview
 
