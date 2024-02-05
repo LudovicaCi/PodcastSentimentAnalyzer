@@ -54,4 +54,4 @@ Follow these steps to utilize the code for sentiment analysis:
 
 ## Additional Information
 
-For further information, consult the [Documentation.pdf](Documentation.pdf) file.
+For further information, consult the [Documentation.pdf](Docs/Documentation.pdf) file.
